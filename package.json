@@ -1,11 +1,10 @@
 {
   "name": "project1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass-compile":"sass style.scss style.css",
+    "sass-compile": "sass style.scss style.css",
     "sass -watch": "sass --watch style.scss style.css"
   },
   "keywords": [],
@@ -13,5 +12,32 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.49.8"
-  }
+  },
+  "dependencies": {
+    "anymatch": "^3.1.2",
+    "braces": "^3.0.2",
+    "chokidar": "^3.5.3",
+    "binary-extensions": "^2.2.0",
+    "glob-parent": "^5.1.2",
+    "immutable": "^4.0.0",
+    "is-glob": "^4.0.3",
+    "fill-range": "^7.0.1",
+    "is-binary-path": "^2.1.0",
+    "is-number": "^7.0.0",
+    "normalize-path": "^3.0.0",
+    "readdirp": "^3.6.0",
+    "is-extglob": "^2.1.1",
+    "picomatch": "^2.3.1",
+    "to-regex-range": "^5.0.1",
+    "source-map-js": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbbq27/Project1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lbbq27/Project1/issues"
+  },
+  "homepage": "https://github.com/lbbq27/Project1#readme",
+  "description": ""
 }
